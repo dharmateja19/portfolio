@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="home-container">
+        <img src="photo.jpg" alt="Dharma Teja" class="profile-photo" />
+        <div class="home-text">
+        <h1>Hello, I'm <span>Dharma Teja</span></h1>
+        <p>Web Developer | Coder</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate developer who loves building beautiful and functional web applications. I have great experience across the full stack. 
+      Maintaining a great Academic score of 9.35. An Aspiring Software Engineer.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">C</div>
+      <div class="skill">C++</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">PHP</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Express.js</div>
+      <div class="skill">SQL</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">Tailwind CSS</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>AgriLink</h3>
+        <p>
+            A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to connect farmers directly with buyers, eliminating middlemen.
+            Features include crop listings, order tracking, secure login, chat system between farmers and buyers, and mobile number OTP verification.
+            Helps streamline agricultural sales, increase transparency, and improve income for farmers.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Subscription Tracker</h3>
+        <p>
+            A PHP and MySQL-based web application that enables users to efficiently manage and track recurring subscriptions such as Netflix, Spotify, and more.
+            Provides CRUD operations for subscriptions, sends renewal reminders, and offers a clean dashboard UI for tracking monthly costs and usage.
+            Built with HTML, CSS, and JavaScript for responsive design.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Weather App</h3>
+        <p>
+            A Python application that fetches and displays real-time weather data using the OpenWeatherMap API.
+            Users can input a city name to view current weather conditions, including temperature, humidity, and descriptions.
+            Built with a clean terminal interface, ideal for quick forecasts and learning API integration.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Employee Management System</h3>
+        <p>
+            A desktop-based GUI application developed in Python using CustomTkinter for managing employee data.
+            Allows users to perform CRUD operations (Create, Read, Update, Delete), search employee records, and maintain structured employee information.
+            Features a user-friendly and responsive interface tailored for HR or admin use cases.
+        </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="status-msg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dharma. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
